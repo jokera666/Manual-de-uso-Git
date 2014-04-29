@@ -1,0 +1,21 @@
+//Configuracion de Git en un equipo nuevo------------------------------
+
+1º---> git config user.name "Nestor"
+2º---> git config user.mail "abv@abv.bg"
+3º---> ssh-keygen // generar una clave rsa privada y introducir la contraseña tulla passphrase y repetirla
+4º---> cat.ssh/id_rsa.pub // sacar la clave publica y copiarla en tu cuenta de github.com/acaunt settings/SSH keys  poner nombre del equipo y copiar la clave
+-----FIN DE CONFIGURACION DE GIT CON NUESTRO EQUIPO--------------------
+
+//Clonar un repositorio en nuestro equipo(Bajarlo en nuestro equipo)
+1º---> cd c/wamp/www // localizar la ruta donde se van a bajar los archicos
+2º---> git clone https://github.com/jokera666/FavoritosOnline.git // copiar la ruta clone de nuestro repositorio en https://github.com
+3º---> Introducimos usuario y contraseña que tenemos en github.com
+4º---> Descarga completada.
+----------------------------------------------------------------------
+
+//Crear nuevo repositorio, modificarlo y subirlo al github-------------
+1º---> localizamos la ruta del nuestro nuevo repositorio pj: cd c/wamp/www/FavoritosOnline
+2º---> git init // es el fichero de repositorio de github. este fichero generara nuestros archicos como repositorio
+3º---> git status // comprueba el estado de nuestro repositorio asi comprobamos que se ha generado el fichero init (ojo es oculto verlo con ls -a)
+4º---> git add . // añadir a todos nuestros archivos en status (los pasa de rojo a verda para realizar un commit deben de estar en verde)
+5º---> git commit -m "nombre de la modificacion" // guardamos la modificacion que hemos realizado con nuestros archivos 
