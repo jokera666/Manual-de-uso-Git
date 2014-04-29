@@ -8,8 +8,8 @@
 
 //Configuracion de Git en un equipo nuevo------------------------------
 
-1º---> git config user.name "Nestor"
-2º---> git config user.mail "abv@abv.bg"
+1º---> git config --global user.name "Nestor"
+2º---> git config --global user.mail "abv@abv.bg"
 3º---> ssh-keygen // generar una clave rsa privada y introducir la contraseña tulla passphrase y repetirla
 4º---> cat.ssh/id_rsa.pub // sacar la clave publica y copiarla en tu cuenta de github.com/acaunt settings/SSH keys  poner nombre del equipo y copiar la clave
 -----FIN DE CONFIGURACION DE GIT CON NUESTRO EQUIPO--------------------
