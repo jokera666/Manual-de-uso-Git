@@ -1,3 +1,9 @@
+*******************************************************
+***Realizado por Nestor Dobirnov Edrev  & manupawa****
+*******************************************************
+
+
+
 //Configuracion de Git en un equipo nuevo------------------------------
 
 1º---> git config user.name "Nestor"
@@ -18,4 +24,7 @@
 2º---> git init // es el fichero de repositorio de github. este fichero generara nuestros archicos como repositorio
 3º---> git status // comprueba el estado de nuestro repositorio asi comprobamos que se ha generado el fichero init (ojo es oculto verlo con ls -a)
 4º---> git add . // añadir a todos nuestros archivos en status (los pasa de rojo a verda para realizar un commit deben de estar en verde)
-5º---> git commit -m "nombre de la modificacion" // guardamos la modificacion que hemos realizado con nuestros archivos 
+5º---> git commit -m "nombre de la modificacion" // guardamos la modificacion que hemos realizado con nuestros archivos
+6º---> git remote add origin https://github.com/jokera666/Manual-de-uso-Git.git // este comando se utilizara solamente en la creacion nueva de un repositorio que es la ruta de nuestro init generado
+7º---> git push -u origin master // este comando subira al servidor todos nuestros ficheros que hemos modificado
+--------------------------------------------------------------------
