@@ -1,6 +1,6 @@
 ﻿*******************************************************
 ***Realizado por Nestor Dobirnov Edrev  & manupawa****
-***Fecha: 29/04/2014***
+***Fecha: 14/04/2015***
 *** TheJoker
 *** Universidad Miguel Hernandez***
 *******************************************************
@@ -31,4 +31,9 @@
 5º---> git commit -m "nombre de la modificacion" // guardamos la modificacion que hemos realizado con nuestros archivos
 6º---> git remote add origin https://github.com/jokera666/Manual-de-uso-Git.git // este comando se utilizara solamente en la creacion nueva de un repositorio que es la ruta de nuestro init generado
 7º---> git push -u origin master // este comando subira al servidor todos nuestros ficheros que hemos modificado
+8º---> git pull // es para descargar el repositorio a tu ordenador
+9º--->
+git --hard HEAD // comando para navegar por por lo commit
+git clean -f
+git pull // descargar el repositorio con el commit selecionado
 --------------------------------------------------------------------
