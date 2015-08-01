@@ -33,7 +33,7 @@
 7º---> git push -u origin master // este comando subira al servidor todos nuestros ficheros que hemos modificado
 8º---> git pull // es para descargar el repositorio a tu ordenador
 9º--->
-git --hard HEAD // comando para navegar por por lo commit
-git clean -f
+git --hard reset HEAD // comando para navegar por por lo commit
+git clean -f // forzar al eliminacion de archivos no utilizados o no necesarios
 git pull // descargar el repositorio con el commit selecionado
 --------------------------------------------------------------------
